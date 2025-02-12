@@ -6,16 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="mensaje"></div>
     <div id="resultado"></div>
     <script>
-       var _valor1=10;
-       var $valor2=30;
-       var  resultado=_valor1+$valor2;
-       document.getElementById('resultado').innerHTML="Resultado: " + resultado;
-       var nombreInstituto = "Certus";
-       document.getElementById('mensaje').innerHTML="Bienvenido a "+nombreInstituto; 
-    
+        var valores=[1,2,3,4,5,6,7,8,9,10];
+        var resultado= valores[0]+","+valores[2]+","+valores[4]+","+valores[6]+","+valores[8];
+        document.getElementById('resultado').innerHTML="Resultado es:" + resultado;
     </script>
 </body>
 </html>
