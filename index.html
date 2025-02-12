@@ -9,13 +9,24 @@
    <div id="resultado"></div>
    <script>
     function suma(valor1, valor2)
+    function resta(valor3, valor4)
+    function multiplicacion(valor5, valor6)
+    function división(valor7, valor8)
     {
     var resultado=valor1+valor2;
-
+    var resultado=valor3-valor4;
+    var resultado=valor5*valor6;
+    var resultado=valor7/valor8;
 
     document.getElementById('resultado').innerHTML="Resultado de la suma es:"+resultado;
+    document.getElementById('resultado').innerHTML="Resultado de la resta es:"+resultado;
+    document.getElementById('resultado').innerHTML="Resultado de la multiplicacion es:"+resultado;
+    document.getElementById('resultado').innerHTML="Resultado de la división es:"+resultado;
     }
     suma(50,20);
+    resta(40,30);
+    multiplicacion(10,5);
+    división(60,20);
     </script>
 </body>
 </html>
